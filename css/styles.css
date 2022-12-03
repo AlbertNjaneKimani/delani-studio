@@ -47,3 +47,19 @@ html{
   .our-work .headings{
     padding-bottom: 38px;
   }
+  #portfolio{
+    align-items: center;
+    margin-left:16%;
+    margin-right: 15%; 
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .portfolio h2{
+    padding-top:38px;
+    text-align: center;
+  }
+  .col-md-3 img{
+    max-width: 100%;
+    max-height: 100%;
+  }
