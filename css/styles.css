@@ -35,3 +35,15 @@ html{
     background-repeat: no-repeat;
     font-size: 17px;
   }
+  #service-section{
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 12%;
+    padding-bottom: 12%;
+  }
+  .our-work{
+    text-align: center;
+    padding-top: 35px;
+  }
+  .our-work .headings{
+    padding-bottom: 38px;
+  }
