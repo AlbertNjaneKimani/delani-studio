@@ -1,32 +1,39 @@
 @import url('https://fonts.googleapis.com/css?family=Copse|Delius+Swash+Caps|Gabriela|Unkempt&display=swap');
-html{
-  scroll-behavior: smooth;
+
+html {
+    scroll-behavior: smooth;
 }
-.home-page{
+
+.home-page {
     background-image: url('../images/backgrounds/h_img.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
     text-align: center;
-    padding-top:19%; 
-  }
-  .home-page h1{
+    padding-top: 19%;
+}
+
+.home-page h1 {
     padding: 2px;
     margin: 5px;
-  }
-  .home-page p{
+}
+
+.home-page p {
     padding: 2px;
-  }
-  .about{
+}
+
+.about {
     text-align: center;
     padding-bottom: 25px;
-    padding-top:30px;
-  }
-  #about{
+    padding-top: 30px;
+}
+
+#about {
     font-family: sans-serif;
-  }
-  .services{
+}
+
+.services {
     background-image: url("../images/backgrounds/s_image.jpg");
     color: white;
     text-align: center;
@@ -34,173 +41,237 @@ html{
     background-size: cover;
     background-repeat: no-repeat;
     font-size: 17px;
-  }
-  #service-section{
-    background-color: rgba(0,0,0,0.4);
+}
+
+#service-section {
+    background-color: rgba(0, 0, 0, 0.4);
     padding-top: 12%;
     padding-bottom: 12%;
-  }
-  .our-work{
+}
+
+.our-work {
     text-align: center;
     padding-top: 35px;
-  }
-  .our-work .headings{
+}
+
+.our-work .headings {
     padding-bottom: 38px;
-  }
-  #portfolio{
+}
+
+#portfolio {
     align-items: center;
-    margin-left:16%;
-    margin-right: 15%; 
+    margin-left: 16%;
+    margin-right: 15%;
     display: flex;
     flex-wrap: wrap;
-    
-  }
-  .portfolio h2{
-    padding-top:38px;
+
+}
+
+.portfolio h2 {
+    padding-top: 38px;
     text-align: center;
-  }
-  .col-md-3 img{
+}
+
+.col-md-3 img {
     max-width: 100%;
     max-height: 100%;
-  }
-  .contact-us{
+}
+
+.contact-us {
     color: white;
     background-image: url('../images/backgrounds/c_image.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-  }
-  .contact-us h2{
+}
+
+.contact-us h2 {
     text-align: center;
     padding-top: 38px;
     margin-top: 28px;
     padding-bottom: 20px;
-  }
-  
-  input[type=text],input[type=email],#content{
+}
+
+input[type=text],
+input[type=email],
+#content {
     background: transparent;
     color: white;
     font-size: 20px;
-  }
-  .form-control::-webkit-input-placeholder { 
-    color: white; 
-  }
- 
-  #name{
+}
+
+.form-control::-webkit-input-placeholder {
+    color: white;
+}
+
+#name {
     width: 38%;
     margin-left: 18%;
     margin-right: 40px;
-  }
-  #email{
+}
+
+#email {
     width: 30%;
-  }
-  #content{
+}
+
+#content {
     margin-left: 18%;
     width: 70%;
-  }
-  .btn{
+}
+
+.btn {
     margin-left: 20%;
     padding-bottom: 30px;
     margin-bottom: 20px;
-  }
-  footer{
+}
+
+footer {
     text-align: center;
     padding-top: 20px;
-  }
-  footer p{
+}
+
+footer p {
     margin-top: 10px;
-  }
-  @media only screen and (max-width: 755px){
-    #port,#port2,#port3,#port4,#port5,#port6,#port7,#port8{
-      width: 100%;
-      height: 100%;
-      top: 20px;
-      left: 16px;
-      padding-top: 20%;
+}
+
+@media only screen and (max-width: 755px) {
+
+    #port,
+    #port2,
+    #port3,
+    #port4,
+    #port5,
+    #port6,
+    #port7,
+    #port8 {
+        width: 100%;
+        height: 100%;
+        top: 20px;
+        left: 16px;
+        padding-top: 20%;
     }
-    .col-md-3 img{
-      width:100%px;
-      margin: 20px;
+
+    .col-md-3 img {
+        width: 100%px;
+        margin: 20px;
     }
-    #portfolio{
-      margin-left:8%;
-      margin-right: 16%; 
+
+    #portfolio {
+        margin-left: 8%;
+        margin-right: 16%;
     }
-    button{
-      margin-left: 2%;
-      padding-bottom: 30px;
-      margin-bottom: 20px;
+
+    button {
+        margin-left: 2%;
+        padding-bottom: 30px;
+        margin-bottom: 20px;
     }
-  }
-  @media only screen and (max-width: 425px){
-    #port,#port2,#port3,#port4,#port5,#port6,#port7,#port8{
-      width: 100%;
-      height: 100%;
-      top: 18px;
-      left: 16px;
-      padding-top: 22%;
-      font-size: 20px;
+}
+
+@media only screen and (max-width: 425px) {
+
+    #port,
+    #port2,
+    #port3,
+    #port4,
+    #port5,
+    #port6,
+    #port7,
+    #port8 {
+        width: 100%;
+        height: 100%;
+        top: 18px;
+        left: 16px;
+        padding-top: 22%;
+        font-size: 20px;
     }
-    .col-md-3 img{
-      width:100%px;
-      margin: 20px;
+
+    .col-md-3 img {
+        width: 100%px;
+        margin: 20px;
     }
-    #portfolio{
-      margin-left:9%;
-      margin-right: 18%; 
+
+    #portfolio {
+        margin-left: 9%;
+        margin-right: 18%;
     }
-    button{
-      padding-bottom: 30px;
-      margin-bottom: 20px;
+
+    button {
+        padding-bottom: 30px;
+        margin-bottom: 20px;
     }
-    #MERGE0{
-      width: 84%;
-      margin-left: 4%;
-      padding-bottom: 10px;
+
+    #MERGE0 {
+        width: 84%;
+        margin-left: 4%;
+        padding-bottom: 10px;
     }
-    #MERGE1{
-      width: 100%;
-      margin-left: 4%;
-      margin-bottom: 20px;
+
+    #MERGE1 {
+        width: 100%;
+        margin-left: 4%;
+        margin-bottom: 20px;
     }
-    #comment{
-      margin-left: 4%;
-      width: 84%;
+
+    #comment {
+        margin-left: 4%;
+        width: 84%;
     }
-  }
-  @media only screen and (min-width: 825px){
-    #port,#port2,#port3,#port4,#port5,#port6,#port7,#port8{
-      width: 100%;
-      height: 100%;
-      top: 20px;
-      left: 20px;
-      padding-top:30%; 
+}
+
+@media only screen and (min-width: 825px) {
+
+    #port,
+    #port2,
+    #port3,
+    #port4,
+    #port5,
+    #port6,
+    #port7,
+    #port8 {
+        width: 100%;
+        height: 100%;
+        top: 20px;
+        left: 20px;
+        padding-top: 30%;
     }
-    .col-md-3 img{
-      width: 400px;
-      margin: 20px;
+
+    .col-md-3 img {
+        width: 400px;
+        margin: 20px;
     }
-    #portfolio{
-      margin-left:10%;
-      margin-right: 10%; 
+
+    #portfolio {
+        margin-left: 10%;
+        margin-right: 10%;
     }
-  }
-  @media only screen and (min-width: 625px){
-    #port,#port2,#port3,#port4,#port5,#port6,#port7,#port8{
-      width: 100%;
-      height: 100%;
-      top: 20px;
-      left: 20px;
-      padding-top:20%; 
-      font-size: 26px;
+}
+
+@media only screen and (min-width: 625px) {
+
+    #port,
+    #port2,
+    #port3,
+    #port4,
+    #port5,
+    #port6,
+    #port7,
+    #port8 {
+        width: 100%;
+        height: 100%;
+        top: 20px;
+        left: 20px;
+        padding-top: 20%;
+        font-size: 26px;
     }
-    .col-md-3 img{
-      width: 400px;
-      margin: 20px;
+
+    .col-md-3 img {
+        width: 400px;
+        margin: 20px;
     }
-    #portfolio{
-      margin-left:6%;
-      margin-right: 10%; 
+
+    #portfolio {
+        margin-left: 6%;
+        margin-right: 10%;
     }
-  }
-  
+}
