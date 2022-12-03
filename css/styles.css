@@ -63,3 +63,42 @@ html{
     max-width: 100%;
     max-height: 100%;
   }
+  .contact-us{
+    color: white;
+    background-image: url('../images/backgrounds/c_image.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .contact-us h2{
+    text-align: center;
+    padding-top: 38px;
+    margin-top: 28px;
+    padding-bottom: 20px;
+  }
+  
+  input[type=text],input[type=email],#content{
+    background: transparent;
+    color: white;
+    font-size: 20px;
+  }
+  .form-control::-webkit-input-placeholder { 
+    color: white; 
+  }
+  #name{
+    width: 38%;
+    margin-left: 18%;
+    margin-right: 40px;
+  }
+  #email{
+    width: 30%;
+  }
+  #content{
+    margin-left: 18%;
+    width: 70%;
+  }
+  .btn{
+    margin-left: 20%;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+  }
