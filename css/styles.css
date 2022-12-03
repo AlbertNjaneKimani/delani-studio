@@ -13,3 +13,10 @@ html{
     font-family: 'Gabriela', serif;
     /* padding-bottom:5%; */
   }
+  .home-page h1{
+    padding: 2px;
+    margin: 5px;
+  }
+  .home-page p{
+    padding: 2px;
+  }
