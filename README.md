@@ -14,7 +14,7 @@ It was developed using HTML5, JavaScript, Bootstrap4,JQUERY and CSS3.
 ## Support and contact details
 For any support concerning source code and request to collaborate, contact me via: albertnjanek@gmail.com.
 ## Github Pages
-The site is live at: https://albertnjanekimani.github.io/akan-names/
+The site is live at: https://albertnjanekimani.github.io/delani-studio/
 ### License
 *This project uses MIT license.*
 Copyright (c) 2022 **Albert Njane**
